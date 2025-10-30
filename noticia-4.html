@@ -9,14 +9,17 @@
 
     <link rel="shortcut icon" href="logomenor.png">
 
-    <!-- Fontes -->
+   <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <!-- Ícones -->
     <script src="https://unpkg.com/feather-icons" defer></script>
@@ -58,7 +61,7 @@
     <!-- Conteúdo do Artigo -->
     <main class="py-16 md:py-24">
         <article class="article-container">
-            <header class="article-header">
+            <header class="article-header" data-aos="fade-up" data-aos-duration="600">
                 <div class="news-tag">CePCLIN NA MÍDIA</div>
                 <h1>Tudo sobre a vacina da Dengue (Qdenga): Dr. Kleber Luz esclarece dúvidas no programa ’12 em ponto’ da rádio 98FM</h1>
                 <div class="article-meta">
@@ -66,7 +69,7 @@
                 </div>
             </header>
 
-            <div class="article-content">
+            <div class="article-content" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <p>Com a chegada da nova vacina contra a dengue, a Qdenga, e o início da sua aplicação na rede pública, muitas dúvidas surgiram na população. Para esclarecer os principais pontos, o Dr. Kleber Luz, diretor do CePCLIN, foi o convidado especial do programa "12 em ponto" na rádio 98FM.</p>
                 
                 <img src="files/not_kleber.png" alt="Imagem de destaque da notícia sobre a vacina Qdenga" loading="lazy">
@@ -93,7 +96,10 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- AOS (Animate On Scroll) Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    
+    <!-- Scripts (Os mesmos da página inicial) -->
     <script src="script.js" defer></script>
 </body>
 </html>

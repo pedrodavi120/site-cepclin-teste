@@ -15,8 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <!-- Ícones -->
     <script src="https://unpkg.com/feather-icons" defer></script>
@@ -58,7 +61,7 @@
     <!-- Conteúdo do Artigo -->
     <main class="py-16 md:py-24">
         <article class="article-container">
-            <header class="article-header">
+            <header class="article-header" data-aos="fade-up" data-aos-duration="600">
                 <div class="news-tag">CePCLIN NA MÍDIA</div>
                 <h1>Brasil enfrentará aumento de 149% nos casos de dengue em 2024, alerta Ministério da Saúde!</h1>
                 <div class="article-meta">
@@ -66,7 +69,7 @@
                 </div>
             </header>
 
-            <div class="article-content">
+            <div class="article-content" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <p>Um alerta preocupante foi emitido pelo Ministério da Saúde: o Brasil pode enfrentar um aumento de até 149% nos casos de dengue em 2024 em comparação com o ano anterior. Este cenário é agravado pelas mudanças climáticas e pela circulação de novos sorotipos do vírus.</p>
                 
                 <img src="files/denguesolo.png" alt="Imagem de destaque da notícia sobre o alerta de dengue" loading="lazy">
@@ -93,7 +96,10 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- AOS (Animate On Scroll) Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    
+    <!-- Scripts (Os mesmos da página inicial) -->
     <script src="script.js" defer></script>
 </body>
 </html>

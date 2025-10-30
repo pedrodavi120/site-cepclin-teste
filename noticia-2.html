@@ -15,8 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <!-- Ícones -->
     <script src="https://unpkg.com/feather-icons" defer></script>
@@ -58,7 +61,7 @@
     <!-- Conteúdo do Artigo -->
     <main class="py-16 md:py-24">
         <article class="article-container">
-            <header class="article-header">
+            <header class="article-header" data-aos="fade-up" data-aos-duration="600">
                 <div class="news-tag">CePCLIN NA MÍDIA</div>
                 <h1>Dr. Kleber Luz participa de capacitação contra a dengue</h1>
                 <div class="article-meta">
@@ -66,7 +69,7 @@
                 </div>
             </header>
 
-            <div class="article-content">
+            <div class="article-content" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <p>O Dr. Kleber Luz, renomado infectologista e um dos fundadores do CePCLIN, foi um dos palestrantes convidados na capacitação nacional para profissionais de saúde sobre o manejo clínico e combate à dengue, realizada virtualmente nesta segunda-feira.</p>
                 
                 <img src="files/capacitdrkleber.png" alt="Imagem de destaque da notícia sobre capacitação da dengue" loading="lazy">
@@ -95,7 +98,10 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- AOS (Animate On Scroll) Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    
+    <!-- Scripts (Os mesmos da página inicial) -->
     <script src="script.js" defer></script>
 </body>
 </html>

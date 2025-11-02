@@ -340,10 +340,12 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
+    /* O padding-bottom será aplicado apenas quando a classe .open estiver presente */
 }
 
 #mobile-menu.open {
     max-height: 500px; /* Ajuste conforme necessário */
+    padding-bottom: 1rem; /* MODIFICAÇÃO: Adicionado padding-bottom (pb-4) aqui */
 }
 
 /* Botão de Voltar ao Topo */
@@ -600,4 +602,3 @@ body {
 .article-content a:hover {
     color: var(--primary-hover-color);
 }
-

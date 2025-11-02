@@ -43,7 +43,7 @@ const initializeSite = () => {
         new Swiper(heroSliderElement, {
             loop: true,
             autoplay: {
-                delay: 5000,
+                delay: 9000,
                 disableOnInteraction: false,
             },
             pagination: {

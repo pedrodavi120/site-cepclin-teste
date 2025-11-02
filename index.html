@@ -57,8 +57,13 @@
     <!-- Seção Principal (Hero Slider) --><main>
         <div class="swiper hero-slider">
             <div class="swiper-wrapper">
-                <!-- Slide 1 --><div class="swiper-slide">
-                    <div class="slide-background" style="background-image: url('images/banner1.png');"></div>
+                <!-- Slide 1 (VÍDEO) -->
+                <div class="swiper-slide">
+                    <!-- Vídeo de Fundo -->
+                    <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0" style="filter: blur(2px);">
+                        <source src="infra_video.mp4" type="video/mp4">
+                        Seu navegador não suporta o tag de vídeo.
+                    </video>
                     <div class="slide-overlay"></div>
                     <div class="slide-content">
                         <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight" data-aos="fade-up" data-aos-duration="1000">Mais de 14 Anos de Excelência em Pesquisa Clínica</h1>
@@ -254,7 +259,6 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mt-2">Infraestrutura Ampla, Moderna e Planejada</h2>
                 <p class="text-gray-600 mt-4">Contamos com um ambiente completo e projetado para oferecer a melhor experiência em pesquisa clínica para pacientes e parceiros.</p>
             </div>
-
             <!-- Galeria de Imagens da Infraestrutura --><div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
                 <div data-aos="fade-up" data-aos-delay="100">
                     <img src="images/CEPCLIN-INFRA-1.png" alt="Recepção da clínica Cepclin" class="rounded-xl shadow-lg w-full h-full object-cover">
